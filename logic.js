@@ -7,7 +7,7 @@ let cityInput = "Delhi";
 const weatherFunc = async function () {
   cityInput = document.getElementById("cityInput").value;
   document.getElementById("cityInput").value = "";
-  let apiUrl = `http://api.weatherapi.com/v1/current.json?key=d05869487ca14961919194357240810&q=${cityInput}&aqi=no`;
+  let apiUrl = `https://api.weatherapi.com/v1/current.json?key=d05869487ca14961919194357240810&q=${cityInput}&aqi=no`;
 
   console.log(cityInput);
   try {
